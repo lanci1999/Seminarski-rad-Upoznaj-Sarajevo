@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Bellerose';
+    src: url(MADE\ SAONARA\ PERSONAL\ USE.otf);
+}
+body{
+    background-color: #0F1724;
+    margin:0;
+    letter-spacing: 2px;
+}
+.pozadina{
+    height: 936px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(pozadine/Pitanja.jpg);
+    background-position: center;
+    background-size: auto, cover;
+    background-attachment: fixed;
+}
+.blur{
+    position: relative;
+    top: 40px;
+    left: 40px;
+    width: 920px;
+    height: 450px;
+    padding: 15px;
+    background:rgba(0, 0, 0, 0);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.144);
+}
+button{
+    font-family:"Bellerose", "Courier New";
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    position: relative;
+    margin-left: 200px;
+    top: -35px;
+    background: linear-gradient(to bottom right, #3bc6fd, #225ab3);
+    border: 0;
+    border-radius: 12px;
+    color: #FFFFFF;
+    display: inline-block;
+    line-height: 2.5;
+    outline: transparent;
+    transition: box-shadow .2s ease-in-out;
+}
+button:hover{
+      box-shadow: 0 0 35px rgba(191, 210, 224, 0.973);
+}
+.anketa{
+      position: absolute;
+      top: 70px;
+      left: 95px;
+      font-family:"Bellerose", "Courier New";
+}
+.anketa label{
+      font-size: 26px;
+      color: white;
+}
+#ime{
+    margin-left: 60px;
+}
+#email{
+    margin-left: 190px;
+}
+.box{
+    padding: 5px;
+    width: 300px;
+    height: 25px;
+    background: transparent;
+    border: solid 2px rgb(255, 255, 255);
+    border-radius: 3px;   
+    box-sizing: inherit;
+    margin-left: 60px;
+}
+.anketa ::placeholder{
+    color:rgb(255, 255, 255);
+    font-family:"Bellerose", "Courier New";
+    letter-spacing: 1.5px;
+}
+.pitanje{
+    padding: 5px;
+    width: 680px;
+    height: 150px;
+    background: transparent;
+    border: solid 2px rgb(255, 255, 255);
+    border-radius: 3px;   
+    box-sizing: inherit;
+    margin-left: 60px;
+}
+#pitanje{
+    margin-left: 60px;
+}

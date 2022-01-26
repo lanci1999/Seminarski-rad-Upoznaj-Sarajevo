@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@font-face {
+    font-family: 'Bellerose';
+    src: url(MADE\ SAONARA\ PERSONAL\ USE.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(pozadine/turisticke.jpg);
+}
+#naslov{
+    position: absolute;
+    top: 50px;
+    letter-spacing: 5px;
+    text-align: center;
+    color:rgb(255, 160, 52);
+    font-size: 400%;
+}
+.card-container{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    justify-content: center;
+    top: 40px;
+    margin: 0 25px;
+}
+.card{
+    top: 180px;
+    width: 370px;
+    height: 250px;
+    box-shadow: 0 18px 10px rgba(0,0,0,0.212);
+    background: rgba(255, 255, 255, 0.301);
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    position: relative;
+    transition: all .4s;   
+    text-align: center;
+    margin: 0 25px;  
+}
+.card img{
+    width: auto;
+    height: 250px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.212);
+    cursor: pointer;
+    z-index: 10;
+    transition: all .4s;
+    text-align: center;  
+}
+.card:hover img{
+    margin-top: -30px; 
+}
+.card:hover{
+    width: 370px;  
+}
+.card::before{
+    letter-spacing: 3px;
+    position:absolute;
+    bottom: 8px;
+    left: 20px;
+    color: rgb(51, 51, 51);
+    font-size: 20px;
+    font-family: 'Font Awsome 5 Free';
+    font-weight: 700;
+    text-anchor: middle;
+}
+.link-slika{
+    z-index: 10;
+}
+.nazivKartice{
+    position: absolute;
+    bottom: 2px;
+    left: 5px;
+    z-index: 5;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+}
+button {
+    font-family:"Bellerose", "Courier New";
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    position: relative;
+    top: 670px;
+    background: linear-gradient(to bottom right, #e48f0f, #c25516);
+    border: 0;
+    border-radius: 12px;
+    color: #FFFFFF;
+    display: inline-block;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 15px;
+    transition: box-shadow .2s ease-in-out;
+}
+button:hover {
+    box-shadow: 0 0 35px rgba(224, 174, 10, 0.5);
+}

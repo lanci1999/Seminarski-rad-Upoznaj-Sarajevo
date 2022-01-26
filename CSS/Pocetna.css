@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Bellerose';
+    src: url(MADE\ SAONARA\ PERSONAL\ USE.otf);
+}
+body{
+    background-color: #0F1724;
+    margin:0;
+}
+.pozadina{
+    height: 380px;
+    padding-top: 184px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.267), rgba(0, 0, 0, 0.301)), url(pozadine/Pocetna.png);
+    background-position: top;
+    background-size: auto, cover;
+}
+#naslovniTekst{
+    position: absolute;
+    left: 400px;
+    top: 250px;
+    letter-spacing: 2px;
+    text-align: left;
+    color:#ebc94d;
+    font-family: "Lucida Handwriting", "Courier New";
+}
+#naslov{
+    font-size: 550%;   
+}
+.miniNaslov{
+    color:#ebc94d;
+    font-size: 230%;
+}
+.traka{
+    height: 76px;
+    border-bottom: 1px solid #e0e0e0;
+    border-top: 1px solid #e0e0e0;
+    background-color: #0f192e;
+}
+.main-nav{
+    margin-top: 25px;
+	text-align: center;
+	list-style: none;  
+}
+.main-nav li{
+    border-radius: 12px;
+    height: 50px;
+    letter-spacing: 1.5px;
+    font-size: 150%;
+	display: inline-block;
+}
+.main-nav li a{
+    border-radius: 12px;
+    text-align: center;
+	color:#f0db91;
+	text-decoration: none;
+	padding: 17px 32px;
+}
+.sadrzaj{
+    position: absolute;
+    right: 400px;
+    left: 400px;
+    letter-spacing: 1.6px;
+    text-align: justify;
+    color:#f0db91;
+}
+.miniNaslov2{
+    color:#f0db91;
+    font-size: 210%;
+}
+.tekst{
+    font-size: 24px;
+    line-height: 1.8;
+}
+button{
+    font-family: "Bellerose", "Courier New";
+    font-size: 20px;
+    letter-spacing: 1px;
+    position: relative;
+    left:83%;  
+    background: linear-gradient(to bottom right, #ebc94d, #FF9A5A);
+    border: 0;
+    border-radius: 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 15px;
+    text-align: center;
+    transition: box-shadow .2s ease-in-out;
+}
+button:hover{
+    box-shadow: 0 0 35px rgba(255, 226, 61, 0.5);
+}
+li a:hover{
+    color: #0f192e;
+    background: linear-gradient(to bottom right, #ebc94d, #FF9A5A);
+    box-shadow: 0 0 35px rgba(255, 226, 61, 0.5);
+    transition: all .8s;
+    border-radius: 12px;
+}
+li::before{
+    padding-top: 10px;
+    height: 40px;
+}

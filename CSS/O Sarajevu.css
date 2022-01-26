@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Bellerose';
+    src: url(MADE\ SAONARA\ PERSONAL\ USE.otf);
+}
+body{
+    background-color: #0F1724;
+    margin:0;
+}
+.pozadina{
+    height: 1830px;
+    padding-top: 184px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.267), rgba(0, 0, 0, 0.301)), url(pozadine/OSarajevu.jpg);
+    background-position: top;
+    background-size: auto, cover;
+    background-attachment: fixed;
+}
+#naslov{
+    position: absolute;
+    top: 35px;
+    left:230px;
+    font-size: 50px;
+    color: white;
+}
+.miniBlurL{
+    position: relative;
+    top: -80px;
+    left: 190px;
+    right: auto;
+    width: 900px;
+    height: 275px;
+    padding: 15px;
+    background:rgba(0, 0, 0, 0);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    color: black;
+    box-shadow: 0 0 20px rgba(0,0,0,0.144);
+    overflow: hidden; 
+    margin-top: 10px;
+}
+.miniBlurR{
+    margin-top: 10px;
+    position: relative;
+    top: -80px;
+    left: 860px;
+    right: auto;
+    width: 900px;
+    height: 275px;
+    padding: 15px;
+    background:rgba(0, 0, 0, 0);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    color: black;
+    box-shadow: 0 0 20px rgba(0,0,0,0.144);
+    overflow: hidden; 
+}
+.tekst{
+    margin-top: 0px;
+    text-align: justify;
+    width: 900px;
+    color: white;
+    font-size: 20px;
+    line-height: 1.4;
+}
+img{
+    margin: 8px 0 0 15px;
+    float: right;
+    width: 400px;
+    height: 230px;
+    border-radius: 20px;
+}
+button{
+    font-family:"Bellerose", "Courier New";
+    font-size: 20px;
+    letter-spacing: 1px;
+    position: absolute;
+    margin: -150px 0 0 1580px ;
+    background: linear-gradient(to bottom right, #e48f0f, #c25516);
+    border: 0;
+    border-radius: 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 15px;
+    text-align: center;
+    transition: box-shadow .2s ease-in-out;
+}
+button:hover{
+    box-shadow: 0 0 35px rgba(255, 178, 53, 0.5);
+}

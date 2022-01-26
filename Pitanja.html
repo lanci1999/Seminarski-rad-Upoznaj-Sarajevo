@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Pitanja.css">
+    <title>Pitanja &#10068</title>
+   <script src="Pitanja.js"></script>
+</head>
+
+<body>
+    <div class="pozadina">
+        <div class="blur"></div>
+        <div>
+            <button style="margin-left: 250px;"><a href="Pocetna.html" style="text-decoration: none;color: white;"><b>Nazad na početnu</b></a></button>
+            <button onclick="input()"style="color: white; width: 150px;"><b>Podnesi</b></a></button>
+        </div>
+    </div>
+    <div class="anketa">
+        <label id="ime" for="name"><b>Ime i prezime:</b></label>
+        <label id="email" for="email"><b>E-mail:</b></label><br><br>
+        <input id="name" type="text" name="name" class="box" placeholder="npr. Mujo Mujić">        
+        <input id="e-mail" type="text" name="email" class="box" placeholder="npr. mujomujic@gmail.com"><br><br>
+        <label id="pitanje" for="pitanje"><b>Unesite pitanje:</b></label><br><br>
+        <textarea type="text" name="pitanje" id="poruka" cols="30" rows="10"class="pitanje" placeholder="Vaše pitanje"></textarea><br>
+    </div>  
+</body>
+</html>

@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Bellerose';
+    src: url(MADE\ SAONARA\ PERSONAL\ USE.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#map{
+    height: 938px;
+    width: 100%;
+}
+button{
+    font-family:"Bellerose", "Courier New";
+    font-size: 20px;
+    letter-spacing: 1px;
+    position: absolute;
+    margin:-90px 0 0 1630px;
+    background: linear-gradient(to bottom right, #818181, #3b3b3b);
+    border: 0;
+    border-radius: 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 15px;
+    text-align: center;
+    transition: box-shadow .2s ease-in-out;
+}
+button:hover{
+    box-shadow: 0 0 35px rgba(255, 255, 255, 0.5);
+}
